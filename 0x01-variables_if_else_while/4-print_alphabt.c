@@ -12,9 +12,9 @@ int main(void)
 {
 	int i;
 
-	for (i - 97; i < 123; i++)
+	for (i = 'a'; i < 'z'; i++)
 	{
-		if (i != 101 && i != 123)
+		if (i != 'e' && i != 'q')
 		{
 			putchar(i);
 		}
