@@ -1,8 +1,14 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
+#include <stdio.h>
 
-/* betty style doc for function main goes there */
+/**
+ * main - Prints the last digit of a randomly gereted number
+ *
+ * and whether it is graeter than 5, les than 6, or 0
+ *
+ * return: Always 0 = (success).
+ */
 int main(void)
 {
 	int n;
@@ -11,15 +17,17 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if ((n % 10) > 5)
 	{
-		printf("last digit of %d is %d  and is grater than 5\n", n, n%10);
+		printf("last digit of %d is %d	and is grater than 5\n", n, n % 10);
 	}
 	else if ((n % 10) < 6 && (n % 10) == 0)
 	{
 		printf("last digit of %d is %d and is less than 6 and not 0\n", n, n % 10)
 	}
-	else 
+	else
 	{
-		printf("last digit of %d is %d  and is 0\n", n, n% 10);
+		printf("last digit of %d is %d	and is 0\n", n, n % 10);
 	}
+
 	return (0);
+
 }
