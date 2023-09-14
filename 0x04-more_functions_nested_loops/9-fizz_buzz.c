@@ -1,7 +1,7 @@
 #include "stdio.h"
 /**
-* main - The “Fizz-Buzz test” is an interview question designed 
-* to help filter out the 99.5% of programming job candidates who 
+* main - The “Fizz-Buzz test” is an interview question designed
+* to help filter out the 99.5% of programming job candidates who
 * can’t seem to program their way out of a wet paper bag.
 * Write a program that prints the numbers from 1 to 100,
 * Return: always 0 (success)
@@ -28,7 +28,7 @@ else if (i == 1)
 {
 printf("%d", i);
 }
-else 
+else
 {
 printf(" %d", i);
 }
